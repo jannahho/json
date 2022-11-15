@@ -3,26 +3,14 @@
 body{
   background-color: #fcf9ed;
   font-family: 'Righteous', Sans-serif;
-  display: grid;
-
 }
 
-/* #contentgrid{
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  display: grid;
-  grid-gap: 5vw;
-  padding: 2em;
-  /* grid-auto-flow: row; */
-  /* grid-column: 1fr 1fr; */
-/* } */
 
 .pagetitle{
   color: #8a8578;
   font-size: 4em;
   letter-spacing: .3em;
-  justify-self: center;
+  text-align: center;
 }
 
 .contentDiv{
