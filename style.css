@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Kanit:wght@500&family=Lemon&family=Righteous&family=Rock+Salt&family=Sarala&family=Syne:wght@700;800&family=Wallpoet&display=swap');
+
+body{
+  background-color: #fcf9ed;
+  font-family: 'Righteous', Sans-serif;
+  display: grid;
+
+}
+
+/* #contentgrid{
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  display: grid;
+  grid-gap: 5vw;
+  padding: 2em;
+  /* grid-auto-flow: row; */
+  /* grid-column: 1fr 1fr; */
+/* } */
+
+.pagetitle{
+  color: #8a8578;
+  font-size: 4em;
+  letter-spacing: .3em;
+  justify-self: center;
+}
+
+.contentDiv{
+  width: 35vw;
+  height: 35vw;
+  display: grid;
+  padding: 2em;
+  grid-template-areas:
+    "image"
+    "title"
+    "description"
+  ;
+  grid-gap: 2vw;
+  justify-self: center;
+  align-self: center;
+}
+
+.projectImage{
+  grid-area: image;
+  justify-self: center;
+  width: 30vw;
+}
+
+.projectTitle{
+  grid-area: title;
+  align-self: start;
+  margin-top: 0px;
+  color: #615e55;
+}
+
+.newDescriptionClass{
+  grid-area: description;
+  margin-top: -5vh;
+    color: #615e55;
+
+}
